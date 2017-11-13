@@ -77,7 +77,7 @@ My final model followed the sample LeNet architecture very closesly with the add
 
 I'm posting the code here because I think that's easiest way to visualize this (and show how close it was to the LeNet starting point!) --
 
-![image10]
+![image2]
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
