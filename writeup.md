@@ -19,10 +19,10 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image0]: ./examples/processed.png "Sample results"
+[image0]: ./examples/processed.png "Processed images"
 [image1]: ./examples/dataset_explore.png "Exploration of datasets"
 [image2]: ./examples/model.png "Model architecture"
-[image3]: ./examples/processed.png "Processed results"
+[image3]: ./examples/sample_results.png "Sample results"
 [image4]: ./web_samples/1.jpg "Sample: 30 km/h"
 [image5]: ./web_samples/13.jpg "Sample: Yield"
 [image6]: ./web_samples/14.jpg "Sample: Stop"
@@ -69,7 +69,7 @@ For the original dataset (and for normalizing the other sets) I cropped the imag
 Using the process outlined in the Pierre Sermanet and Yann LeCun paper, I also wrote a function (jitter_img) to introduce random changes of translation, rotation, and scale. Initially I generated 5 "jittered" images for each original in the training set. The final accuracy of the model depended heavily on the random inputs, so I experimented with generating new images per epoch and found that didn't create significantly different outcomes. Instead I settled on increasing the generated samples to 10x per original. (I didn't normalize the number of samples per class through this method, but that might be something to attempt.)
 
 Here's how one image was modified and a random jitter in the "augmented" case:
-![image3]
+![image0]
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
@@ -113,7 +113,7 @@ I selected these images from stock photos. I expected the "Keep Right" sign to c
 
 Here are the results of the prediction:
 
-![image0]
+![image3]
 
 The model was able to correctly guess 5 of the 6 traffic signs, which gives an accuracy of 83.3%. 
 
