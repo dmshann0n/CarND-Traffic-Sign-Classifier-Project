@@ -26,9 +26,9 @@ The goals / steps of this project are the following:
 [image4]: ./web_samples/1.jpg "Sample: 30 km/h"
 [image5]: ./web_samples/13.jpg "Sample: Yield"
 [image6]: ./web_samples/14.jpg "Sample: Stop"
-[image7]: ./examples/38.jpg "Sample: Stay right"
-[image8]: ./examples/4.jpg "Sample: 70 km/h"
-[image9]: ./examples/7.jpg "Sample: 100 km/h"
+[image7]: ./web_samples/38.jpg "Sample: Stay right"
+[image8]: ./web_samples/4.jpg "Sample: 70 km/h"
+[image9]: ./web_samples/7.jpg "Sample: 100 km/h"
 [image10]: ./examples/training_summary.png "Summary of training data"
 
 ## Rubric Points
@@ -89,6 +89,7 @@ My final model results were:
 * validation set accuracy of 0.954 
 * test set accuracy of 0.942
 
+Model questions: 
 * What architecture was chosen? LeNet
 
 * Why did you believe it would be relevant to the traffic sign application? It was used in the handwriting sample and seemed to handle general computer vision challenges like this well.
